@@ -1,0 +1,24 @@
+{
+  "name": "spreadsheet-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix frontend run dev\" \"npm --prefix backend run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhagyaKarunatilleke/spreadsheet-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhagyaKarunatilleke/spreadsheet-converter/issues"
+  },
+  "homepage": "https://github.com/BhagyaKarunatilleke/spreadsheet-converter#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
